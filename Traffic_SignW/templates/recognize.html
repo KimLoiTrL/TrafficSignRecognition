@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <title>Traffic Sign Recognition | Recognize</title>
+        <meta name="description" content="">
+        <!-- responsive tag -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="images\fav.png"> -->
+        <!-- bootstrap v4 css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\bootstrap.min.css">
+        <!-- font-awesome css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\font-awesome.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\animate.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\owl.carousel.css">
+		<!-- flaticon css  -->
+        <link rel="stylesheet" type="text/css" href="..\static\fonts\flaticon.css">
+        <!-- rsmenu CSS -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\rsmenu-main.css">
+        <!-- magnific popup css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\magnific-popup.css">
+        <!-- rsmenu transitions CSS -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\rsmenu-transitions.css">
+        <!-- style css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\style.css">
+        <link rel="stylesheet" type="text/css" href="..\static\css\s.css">
+        <!-- switch color presets css -->
+        <link id="switch_style" href="#" rel="stylesheet" type="text/css">
+        <!-- Spacing css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\spacing.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="..\static\css\responsive.css">
+    </head>
+    <body>
+
+        <!-- Preloader area start here -->
+        <div id="loading" class="icon-preloader">
+            <div class="loader">
+                <div class="animate3">
+                    <img src="https://freesvg.org/img/Do_Not_Enter_sign.png" alt="Preloader Image animate3">
+                </div>
+            </div>
+        </div>
+        <!--End preloader here -->
+        
+        <!--Header Section Start-->
+        <header id="rs-header" class="transparent-header">
+            <!-- Toolbar Start -->
+            <div class="toolbar-area hidden-sm hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-7 col-xs-12">
+                            <!-- <div class="toolbar-contact">
+                                <ul>
+                                    <li><i class="fa fa-envelope-o"></i><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></li>
+                                    <li><i class="fa fa-phone"></i><a href="tel:+123456789">(+123) 456789</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <div class="col-lg-6 col-sm-5 col-xs-12">
+                            <div class="toolbar-sl-share">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <!-- Toolbar End -->
+
+            <!-- Header Menu Start -->
+            <div class="menu-area menu-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <div class="logo-area">
+                                <a href="/"><img src="..\static\images\logo1.png" alt="logo"> Traffic Sign</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 mobile-menu-area">
+                            <div class="rs-menu-area display-flex-center">
+                                <div class="main-menu">
+                                    <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+                                    <nav class="rs-menu">
+                                        <ul class="nav-menu">
+                                            <!-- Home -->
+                                            <li><a href="/">Home</a></li>
+                                                
+                            
+                                            
+                                            <!-- End Home -->
+
+                                            <li><a href="about">About</a></li> 
+
+                                            <li><a href="recognize">Recognition</a></li>
+
+                                            <!-- Pages Mega Menu Start -->
+                                            
+                                            
+                                        </ul>
+                                   </nav>
+                               </div>
+                               <div class="right-bar-icon text-right">
+                                    <!-- <ul>
+                                        
+                                        <li class="icon-bar "><a class="rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a></li>
+                                    </ul> -->
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Menu End -->
+        </header>
+        <!--Header Section End-->
+
+        <!-- Breadcrumbs Start -->
+        <div class="breadcrumbs">
+            <div class="breadcrumbs-wrap">
+                <img src="..\static\images\breadcrumbs\bg.jpg" alt="Breadcrumbs Image">
+                <div class="breadcrumbs-inner">
+                    <div class="container">
+                        <div class="breadcrumbs-text">
+                            <h1 class="breadcrumbs-title mb-17">Recognition</h1>
+                            <div class="categories">
+                                <ul>
+                                    <li><a href="/"><i class="fa fa-house"></i> Home</a></li>
+                                    <li>Recognize</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>
+        <!-- Breadcrumbs End -->
+
+        <!-- Services Section Start-->
+        <div class="neuron-about">
+            <div class="single-about style3 features box-shadow">
+                <!-- <div class="about-icon">
+                    <i class="flaticon-face"></i>
+                </div> -->
+                <!-- <div class="about-title">
+                    <h3 class="title mb-15">Face Recognition Detection</h3>
+                </div>
+                <div class="about-desc">
+                    <p class="desc-txt">Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional</p>
+                </div> -->
+                <form id="upload-file" method="post" enctype="multipart/form-data">
+                    <label for="imageUpload" class="upload-label">
+                        Upload...
+                    </label>
+                    <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+                </form>
+            
+                <div class="image-section" style="display:none;">
+                    <div class="img-preview">
+                        <div id="imagePreview">
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Recognite Traffic🚦Signs</button>
+                    </div>
+                </div>
+
+                <script>
+                    
+                </script>
+            
+                <div class="loader" style="display:none;"></div>
+            
+                <h3 id="result">
+                    <span> </span>
+                </h3>
+            </div>
+        </div>
+        
+        <!-- Footer Start -->
+        <footer id="rs-footer" class="rs-footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12 col-sm-12 single-footer-column mb-md-30">
+                            <div class="about-widget pr-20">
+                                <div class="footer-logo">
+                                    <img src="..\static\images\logo1.png" alt="Footer Logo">
+                                </div>                              
+                                <div class="footer-info">
+                                    <p class="footer-desc">Traffic Sign Recognition </p>
+                                </div>                                
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-12 col-sm-12 single-footer-column">
+                            <div class="footer-menu">
+                                <h4 class="footer-title">Member 1</h4>
+                                <div class="contact-text">19TCLC_Nhat1 <br>
+                                    <a href="#">Tran Le Kim Loi</a> <br>
+                                    <a href="#">trlekimloi@gmail.com</a>
+                                    <a href="https://www.facebook.com/b.biito">https://www.facebook.com/b.biito</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-12 col-sm-12 single-footer-column mb-md-30">
+                            <div class="footer-menu">
+                                <h4 class="footer-title">Member 2</h4>
+                                <div class="contact-text">19TCLC_Nhat1 <br> 
+                                    <a href="#">Hoang Ha Nhi</a>
+                                    <a href="#">hoanghanhitg@gmail.com</a>
+                                    <a href="https://www.facebook.com/hanhi.2612/">https://www.facebook.com/hanhi.2612/</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 single-footer-column">
+                            <div class="footer-menu">
+                                <h4 class="footer-title">Member 3</h4>
+                                <div class="contact-text">19TCLC_Nhat1 <br> 
+                                    <a href="#">Huynh Hai Phong</a>
+                                    <a href="#">haiphong.huynh@gmail.com</a>
+                                    <a href="https://www.facebook.com/yuuki2501">https://www.facebook.com/yuuki2501</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+            </div>
+            <!-- <div class="footer-bottom">
+                <div class="container">                    
+                    <div class="copyright text-center">
+                        <p>PBL 6</p>
+                    </div>
+                </div>
+            </div> -->
+        </footer>
+        <!-- Footer End -->
+
+       
+        
+        <!-- modernizr js -->
+        <script src="..\static\js\modernizr-2.8.3.min.js"></script>
+        <!-- jquery latest version -->
+        <script src="..\static\js\jquery.min.js"></script>
+        <!-- counter top js -->
+        <script src="..\static\js\jquery.counterup.min.js"></script>
+        <script src="..\static\js\waypoints.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="..\static\js\bootstrap.min.js"></script>
+        <!-- owl.carousel js -->
+        <script src="..\static\js\owl.carousel.min.js"></script>
+        <!-- magnific popup -->
+        <script src="..\static\js\jquery.magnific-popup.min.js"></script>
+        <!-- wow js -->
+        <script src="..\static\js\wow.min.js"></script>
+        <!-- rsmenu js -->
+        <script src="..\static\js\rsmenu-main.js"></script>
+        <!-- plugins js -->
+        <script src="..\static\js\plugins.js"></script>
+		 <!-- main js -->
+        <script src="..\static\js\main.js"></script>
+    </body>
+</html>
